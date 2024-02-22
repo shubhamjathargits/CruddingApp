@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+      
+    <div class="org" id="original"></div>
+     <div class="container"></div>
+    <div class="indexing">
+        <h2>Seraching Of Element of Index</h2>
+        <h3>We find Out the array element using Index <br>from that we need to traverse an array</h3>
+        <form>
+            <input type="text" id="ind" placeholder="Enter Index"><br><br>
+            <button type="button" onclick="trav()">Get Element</button>
+        </form><br>
+        <div id="trvss"></div>
+    </div>
+    <div class="searching">
+        <h2>Searching Of Index of Elememt</h2>
+        <h3>We find Out the array index using element <br>from that we need to traverse an array</h3>
+        <form>
+            <input type="text" id="ele" placeholder="Enter Element"><br><br>
+             <button type="button" onclick="searchme()">Get Index No</button>
+        </form><br>
+        <div id="ser"></div>
+    </div>
+    <!-- <div class="check"></div> -->
+</div>
+<div class="container2">
+    <div class="inserting">
+        <h2>Insert the Element in Array</h2>
+        <h3>Here we need to Give The element that we want to Insert at the postion where we want to insert</h3>
+        <form>
+            <input type="text" id="nele" placeholder="Enter Element"><br><br>
+            <input type="text" id="position" placeholder="Enter Position"><br><br>
+            <button type="button" onclick="insert()">Inserted Array</button>
+        </form><br>
+        
+    </div>
+    <div class="sorting">
+        
+        <h2>Sort the Element Of Array</h2>
+        <h3>Here we need Just Need to click sort me Buttom You Get Sorted Array</h3>
+        <form>
+            <button type="button" onclick="sortZ()">Sort Array</button>
+            <h3>Here we Use Bubble Sort Method Check Shorted array in Below Ouput Box </h3>
+        </form><br>
+    </div>
+    <div class="deleting">
+        <h2>Deleting  Elememt from Array</h2>
+        <h3>We can delete any element from th array that you want just give us element that you want to delete</h3>
+        <form>
+            <input type="text" id="numToDelete" placeholder="Enter Number to Delete"><br><br>
+        <button type="button" onclick="deleteNumber()">Delete Number</button>
+        </form><br>
+    </div>
+</div>
+<div id="output"></div>
+</body>
+<footer>
+    <div class="footer-content">
+        <span>Powered and copyrighted by <a href="https://www.linkedin.com/in/shubham-jathar/" target="_blank">@shubham-Jathar</a></span>
+        <div class="social-links">
+            <a href="https://github.com/shubhamjathargits" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/twitby_shubham" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/shubham-jathar/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <a href="https://github.com/shubhamjathargits/CruddingApp"><button id="getCodeBtn">Get Code</button></a>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,315 @@
+body{
+    background-color: rgb(250, 248, 244);
+}
+   
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: -20px;
+}
+
+#original {
+    color: aliceblue;
+    height: 50px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: #333; /* Dark gray background */
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.indexing,
+.searching {
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.indexing {
+    margin-left: 20px;
+}
+
+.searching {
+    margin-right: 100px;
+}
+
+.indexing input,
+.searching input {
+    font-size: 18px; /* Reduced font size */
+    height: 30px; /* Adjusted height */
+    width: 260px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 20px;
+    padding: 10px; /* Reduced padding */
+    text-align: center;
+}
+
+.indexing button,
+.searching button {
+    height: 40px; /* Increased height */
+    width: 200px; /* Increased width */
+    background-color: #007bff; /* Blue button color */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px; /* Adjusted margin */
+    margin-left: 50px;
+}
+
+#trvss,
+#ser {
+    font-size: 18px;
+    border: 1px solid green;
+    height: 30px; /* Adjusted height */
+    width: 260px;
+    border-radius: 20px;
+    padding: 10px; /* Reduced padding */
+    color: green;
+    text-align: center;
+}
+
+.check {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    margin-top: 100px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center;
+    }
+    
+    #original {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .indexing,
+    .searching {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 20px 0; /* Add margin to separate elements */
+    }
+
+    .searching {
+        margin-right: 0; /* Remove margin-right */
+    }
+
+    .indexing button,
+    .searching button {
+        margin-left: 0; /* Remove margin-left */
+    }
+}
+#output{
+    color: aliceblue;
+    height: 30px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    background-color: #333; /* Dark gray background */
+    margin-top: 50px;
+    margin-left: 350px; 
+    margin-bottom: 20px;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly; /* or any other value like 'space-between', 'space-evenly', 'flex-start', 'flex-end' */
+    align-items: center;
+    margin-top: -100px;
+    margin-left: 10px;
+}
+.inserting,.deleting,.sorting{
+    margin-top: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid  black;
+    height: 350px;
+    width: 250px;
+}
+.container2 button{
+    height: 40px; /* Increased height */
+    width: 150px; /* Adjusted width */
+    border-radius: 20px;
+    background-color: #28a745; /* Green button color */
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 30px;
+}
+.container2 input{
+    height: 30px; /* Adjusted height */
+    width: 200px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px; /* Reduced padding */
+}
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    #output {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container2 {
+        margin-top: 10px;
+    }
+    .inserting, .deleting, .sorting {
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+body {
+    background-color: #f8f8f8; /* Light gray background */
+    font-family: Arial, sans-serif; /* Default font family */
+}
+
+.indexing,
+.searching,
+.inserting,
+.deleting,
+.sorting {
+    background-color: #e8e8e8; /* Slightly darker gray */
+}
+
+
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links {
+    margin-left: 20px;
+}
+
+.social-links a {
+    color: #fff; /* Social icon color */
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hover effect for social links */
+.social-links a:hover {
+    color: #ff0; /* Change color on hover */
+}
+#getCodeBtn {
+    background-color: #FF5722; /* Orange button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 00px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#getCodeBtn:hover {
+    background-color: #ea7f5e; /* Darker orange on hover */
+}
+.container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.container2 button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+footer a{
+    text-decoration: none;
+    color:#007bff;
+}
+/* Media query for smaller screens */
+@media only screen and (max-width: 480px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center;
+        margin-top: 100px; /* Adjusted margin */
+    }
+    
+    #original {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .indexing,
+    .searching {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 20px 0; /* Add margin to separate elements */
+    }
+
+    .searching {
+        margin-right: 0; /* Remove margin-right */
+    }
+
+    .indexing button,
+    .searching button {
+        margin-left: 0; /* Remove margin-left */
+    }
+
+    .container2 {
+        margin-top: 50px; /* Adjusted margin */
+    }
+
+    .inserting,
+    .deleting,
+    .sorting {
+        width: 90%;
+        margin-top: 10px; /* Adjusted margin */
+    }
+
+    #output {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container2 button {
+        margin-left: 0; /* Remove margin-left */
+    }
+
+    .container2 input {
+        margin-top: 10px; /* Adjusted margin */
+    }
+}
+
+/* Media query for medium screens */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        margin-top: 120px; /* Adjusted margin */
+    }
+
+    .container2 {
+        margin-top: 70px; /* Adjusted margin */
+    }
+
+    .inserting,
+    .deleting,
+    .sorting {
+        margin-top: 20px; /* Adjusted margin */
+    }
+}
